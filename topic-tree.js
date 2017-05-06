@@ -74,7 +74,7 @@ function update(source) {
   nodeEnter.append("svg:text")
   	.attr("class","data")
 	.attr("x", 10)
-	.attr("y", 5)
+	//.attr("y", 5)   align good!!!!!
 	.attr("dy", ".35em")
 	.attr("id",function(d) {return d.id;})
 	.text(function(d) { 
